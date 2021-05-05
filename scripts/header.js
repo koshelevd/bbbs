@@ -2,8 +2,12 @@ const headerMenu = document.querySelector('.header__menu-mobile');
 const headerBtnBurger = document.querySelector('.header__burger-btn');
 const headerAuthorization = document.querySelector('.header__authorization');
 const headerBtnClose = document.querySelector('.header__close-btn');
-const searchBtn = document.querySelector('.header__loupe');
-const searchContainer = document.querySelector('.header__search');
+const searchBtnMobile = document.querySelector('.header__loupe_screen_mobile');
+const searchContainerMobile = document.querySelector('.search_screen_mobile');
+const searchBtnDesktop = document.querySelector('.header__loupe_screen_desktop');
+const searchContainerDesktop = document.querySelector('.search_screen_desktop');
+const searchBlockLoupe = document.querySelector('.header__search-authorization');
+const menuDesktop = document.querySelector('.header__menu-desktop');
 
 function openMenu() {
   headerMenu.classList.add('header__menu_visible_on');
@@ -19,12 +23,20 @@ function closeMenu() {
   headerBtnClose.classList.remove('header__close-btn_visible_on');
 }
 
-function handleSearchBtn() {
-  searchContainer.classList.toggle('header__search_visible_on');
+function handleSearchBtnMobile() {
+  searchContainerMobile.classList.toggle('search_visible_on');
+}
+
+function handleSearchBtnDesktop() {
+  searchContainerDesktop.classList.toggle('search_visible_on');
+  menuDesktop.classList.toggle('header__menu-desktop_visible_off');
+  searchBlockLoupe.classList.toggle('header__search-authorization_container_opened');
 }
 
 headerBtnBurger.addEventListener('click', openMenu);
 
 headerBtnClose.addEventListener('click', closeMenu);
 
-searchBtn.addEventListener('click', handleSearchBtn);
+searchBtnMobile.addEventListener('click', handleSearchBtnMobile);
+
+searchBtnDesktop.addEventListener('click', handleSearchBtnDesktop);

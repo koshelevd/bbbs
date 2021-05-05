@@ -14,7 +14,7 @@
     <header class="header">
       <div class="header__block">
         <div class="header__navigation">
-          <button class="header__loupe" type="button" aria-label="кнопка поиска"></button>
+          <button class="header__loupe header__loupe_screen_mobile" type="button" aria-label="кнопка поиска"></button>
           <button class="header__authorization header__authorization_type_logged-in" type="button"
             aria-label="кнопка авторизации"></button>
         </div>
@@ -64,32 +64,55 @@
         </ul>
       </nav>
       <div class="header__search-authorization">
-        <button class="header__loupe" type="button" aria-label="кнопка поиска"></button>
-        <button class="header__authorization header__authorization_type_logged-in" type="button"
-          aria-label="кнопка авторизации"></button>
+        <button class="header__loupe header__loupe_screen_desktop" type="button" aria-label="кнопка поиска"></button>
+        <div class="search search_screen_desktop">
+          <form action="#" class="search__form">
+            <input type="text" class="search__input" placeholder="Поиск">
+          </form>
+          <ul class="search__result search__result_screen_desktop">
+            <li class="search__result-item">
+              <h2 class="result__title">Причины подростковой агрессии</h2>
+              <a href="#" class="result__link">статьи</a>
+            </li>
+            <li class="search__result-item">
+              <h2 class="result__title">Агрессивное поведение детей-сирот</h2>
+              <a href="#" class="result__link">видео</a>
+            </li>
+            <li class="search__result-item">
+              <h2 class="result__title">Что делать если ваш младший агрессивно себя ведет, решил закрыть пару?</h2>
+              <a href="#" class="result__link">вопросы</a>
+            </li>
+            <li class="search__result-item">
+              <h2 class="result__title">Как реагировать на агрессивное поведения ребенка</h2>
+              <a href="#" class="result__link">книги</a>
+            </li>
+          </ul>
+        </div>
+        <button class="header__authorization header__authorization_type_logged-in header__authorization_screen_desktop"
+          type="button" aria-label="кнопка авторизации"></button>
       </div>
     </header>
     <main class="main">
-      <div class="header__search">
-        <form action="#" class="header__search-form">
-          <input type="text" class="header__search-input" placeholder="Поиск">
+      <div class="search search_screen_mobile">
+        <form action="#" class="search__form">
+          <input type="text" class="search__input" placeholder="Поиск">
         </form>
-        <ul class="header__search-result">
-          <li class="header__search-result-item">
-            <h2 class="header__result-title">Причины подростковой агрессии</h2>
-            <a href="#" class="header__result-link">статьи</a>
+        <ul class="search__result search__result_screen_mobile">
+          <li class="search__result-item">
+            <h2 class="result__title">Причины подростковой агрессии</h2>
+            <a href="#" class="result__link">статьи</a>
           </li>
-          <li class="header__search-result-item">
-            <h2 class="header__result-title">Агрессивное поведение детей-сирот</h2>
-            <a href="#" class="header__result-link">видео</a>
+          <li class="search__result-item">
+            <h2 class="result__title">Агрессивное поведение детей-сирот</h2>
+            <a href="#" class="result__link">видео</a>
           </li>
-          <li class="header__search-result-item">
-            <h2 class="header__result-title">Что делать если ваш младший агрессивно себя ведет, решил закрыть пару?</h2>
-            <a href="#" class="header__result-link">вопросы</a>
+          <li class="search__result-item">
+            <h2 class="result__title">Что делать если ваш младший агрессивно себя ведет, решил закрыть пару?</h2>
+            <a href="#" class="result__link">вопросы</a>
           </li>
-          <li class="header__search-result-item">
-            <h2 class="header__result-title">Как реагировать на агрессивное поведения ребенка</h2>
-            <a href="#" class="header__result-link">книги</a>
+          <li class="search__result-item">
+            <h2 class="result__title">Как реагировать на агрессивное поведения ребенка</h2>
+            <a href="#" class="result__link">книги</a>
           </li>
         </ul>
       </div>
