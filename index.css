@@ -1,0 +1,149 @@
+@import url(./vendor/fonts/fonts.css);
+.calendar_item {
+    max-width: 290px;
+    background: #ffffff;
+    border-radius: 30px;
+}
+
+.calendar__header {
+    display: flex;
+    padding-top: 30px;
+}
+.calendar__who {
+    margin: 0;
+    max-width: 103px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #464646;
+}
+
+.calendar__day {
+    margin: 0;
+    max-width: 133px;
+    padding-left: 24px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.calendar__info {
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+.calendar__event {
+    margin: 0;
+    max-width: 166px;
+    font-family: Proto Grotesk Web Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+}
+.calendar__number {
+    align-self: self-end;
+    margin: 0;
+    max-width: 79px;
+    font-family: Proto Grotesk Web Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -2px;
+    color: #000000;
+}
+.calendar__time {
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top: 50px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #1a1a1a;
+}
+.calendar__place {
+    margin: 0;
+    border-style: solid;
+    border-width: 0.5px 0 0.5px 0;
+    border-color: #a7a6a6;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #1a1a1a;
+}
+.calendar__contacts {
+    margin: 0;
+    padding-top: 5px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.calendar__buttons {
+    display: flex;
+    padding-top: 30px;
+}
+.calendar__content {
+    max-width: 260px;
+    margin: 0 auto;
+}
+.calendar__singup {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #224cff;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.calendar__text {
+    margin: 0;
+    font-family: Proto Grotesk Web Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #224cff;
+}
+.calendar__status {
+    align-self: center;
+    padding-left: 10px;
+    padding-right: 17px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.calendar__else {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #224cff;
+    border-radius: 50px;
+}
