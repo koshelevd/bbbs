@@ -14,30 +14,60 @@
     <header class="header">
       <div class="header__block">
         <div class="header__navigation">
-          <button class="header__loupe" type="button"></button>
-          <button class="header__authorization header__authorization_type_logged-in" type="button"></button>
-          <a class="header__logo" href="./index.html">наставник.про</a>
+          <button class="header__loupe" type="button" aria-label="кнопка поиска"></button>
+          <button class="header__authorization header__authorization_type_logged-in" type="button"
+            aria-label="кнопка авторизации"></button>
         </div>
-        <button class="header__burger-btn"></button>
-        <button class="header__close-btn"></button>
+        <a class="header__logo" href="./index.html">наставники.про</a>
+        <div class="header__menu-btns">
+          <button class="header__burger-btn" type="button" aria-label="кнопка открытия меню"></button>
+          <button class="header__close-btn" type="button" aria-label="кнопка закрытия меню"></button>
+        </div>
       </div>
-      <nav class="header__menu">
-        <ul class="header__menu-lists">
-          <li class="header__menu-list"><a href="#" class="header__menu-link">о проекте</a></li>
-          <li class="header__menu-list"><a href="#" class="header__menu-link">календарь</a></li>
-          <li class="header__menu-list"><a href="#" class="header__menu-link">куда пойти</a></li>
-          <li class="header__menu-list"><a href="#" class="header__menu-link">вопросы</a></li>
-          <li class="header__menu-list"><a href="#" class="header__menu-link">читать и смотреть</a></li>
-          <li class="header__menu-list"><a href="#" class="header__menu-link">права детей</a></li>
-          <li class="header__menu-list"><a href="#" class="header__menu-link">истории</a></li>
-        </ul>
-        <ul class="header__menu-lists">
-          <li class="header__menu-list"><a href="#" class="header__menu-link">facebook</a></li>
-          <li class="header__menu-list"><a href="#" class="header__menu-link">vkontakte</a></li>
-          <li class="header__menu-list"><a href="#" class="header__menu-link">instagram</a></li>
-          <li class="header__menu-list"><a href="#" class="header__menu-link">youtube</a></li>
+      <nav class="header__menu-mobile">
+        <div class="header__menu-navigation">
+          <ul class="header__menu-lists">
+            <li class="header__menu-list"><a href="#" class="header__menu-link">о проекте</a></li>
+            <li class="header__menu-list"><a href="#" class="header__menu-link">календарь</a></li>
+            <li class="header__menu-list"><a href="#" class="header__menu-link">куда пойти</a></li>
+            <li class="header__menu-list"><a href="#" class="header__menu-link">вопросы</a></li>
+            <li class="header__menu-list"><a href="#" class="header__menu-link">читать и смотреть</a></li>
+            <li class="header__menu-list"><a href="#" class="header__menu-link">права детей</a></li>
+            <li class="header__menu-list"><a href="#" class="header__menu-link">истории</a></li>
+          </ul>
+          <ul class="header__menu-lists">
+            <li class="header__menu-list"><a href="#" class="header__menu-link">facebook</a></li>
+            <li class="header__menu-list"><a href="#" class="header__menu-link">vkontakte</a></li>
+            <li class="header__menu-list"><a href="#" class="header__menu-link">instagram</a></li>
+            <li class="header__menu-list"><a href="#" class="header__menu-link">youtube</a></li>
+          </ul>
+        </div>
+        <div class="header__menu-bottom">
+          <div class="header__city">
+            <p class="header__active-city">Москва.</p>
+            <button type="button" class="header__change-city" aria-label="кнопка изменения города">Изменить
+              город</button>
+          </div>
+          <button type="button" class="header__exit" aria-label="кнопка выхода с учетной записи">Выйти</button>
+        </div>
+      </nav>
+      <a class="header__logo header__logo_type_logged-in header__logo_screen_desktop"
+        href="./index.html">наставники.про</a>
+      <nav class="header__menu-desktop">
+        <ul class="header__menu-lists-desktop">
+          <li class="header__menu-list-desktop"><a href="#" class="header__menu-link">календарь</a></li>
+          <li class="header__menu-list-desktop"><a href="#" class="header__menu-link">куда пойти</a></li>
+          <li class="header__menu-list-desktop"><a href="#" class="header__menu-link">вопросы</a></li>
+          <li class="header__menu-list-desktop"><a href="#" class="header__menu-link">читать и смотреть</a></li>
+          <li class="header__menu-list-desktop"><a href="#" class="header__menu-link">права детей</a></li>
+          <li class="header__menu-list-desktop"><a href="#" class="header__menu-link">истории</a></li>
         </ul>
       </nav>
+      <div class="header__search-authorization">
+        <button class="header__loupe" type="button" aria-label="кнопка поиска"></button>
+        <button class="header__authorization header__authorization_type_logged-in" type="button"
+          aria-label="кнопка авторизации"></button>
+      </div>
     </header>
   </div>
   <script src="./scripts/header.js"></script>
