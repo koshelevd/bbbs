@@ -1,0 +1,125 @@
+.header {
+  min-height: 50px;
+  padding: 7px 0 0;
+}
+
+.header__block {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header__loupe {
+  cursor: pointer;
+  margin: 1px 10px 0 0;
+  width: 30px;
+  height: 30px;
+  background: center / contain url('../../images/header/loupe.svg') no-repeat transparent;
+  border: none;
+}
+
+.header__authorization {
+  cursor: pointer;
+  margin-right: 8px;
+  visibility: hidden;
+  width: 30px;
+  height: 30px;
+  background: center / contain url('../../images/header/authorization.svg') no-repeat transparent;
+  border: none;
+}
+
+.header__authorization_visible_on {
+  visibility: visible;
+}
+
+.header__authorization_type_logged-in {
+  background: center / contain url('../../images/header/authorization-logged.svg') no-repeat transparent;
+}
+
+.header__logo {
+  text-decoration: none;
+  color: #224CFF;
+  font-size: 20px;
+}
+
+.header__burger-btn {
+  position: absolute;
+  top: 8px;
+  right: 2px;
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+  background: center / contain url('../../images/header/burger.svg') no-repeat transparent;
+  border: none;
+}
+
+.header__burger-btn_visible_off {
+  visibility: hidden;
+}
+
+.header__close-btn {
+  position: absolute;
+  top: -2px;
+  right: 2px;
+  visibility: hidden;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: center / contain url('../../images/header/close.svg') no-repeat transparent;
+  border: none;
+}
+
+.header__close-btn_visible_on {
+  visibility: visible;
+}
+
+.header__menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  padding: 89px 36px 50px 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 0px 0px 30px 30px;
+  z-index: -1;
+  box-sizing: border-box;
+}
+
+.header__menu_visible_on {
+  visibility: visible;
+}
+
+.header__menu-lists {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__menu-list {
+  margin: 0 0 15px;
+}
+
+.header__menu-list:last-of-type {
+  margin: 0;
+}
+
+.header__menu-link {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: .2px;
+  line-height: 17.5px;
+  font-size: 15px;
+  font-weight: 300;
+}
