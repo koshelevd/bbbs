@@ -1,7 +1,26 @@
 .page__header {
-  max-width: 1770px;
-  height: 30px;
+  height: 50px;
   width: 100%;
-  margin: 40px auto 0;
-  outline: red solid 1px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) {
+  .page__header {
+    margin-top: 30px;
+    padding: 0 117px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .page__header {
+    height: 30px;
+    margin-top: 40px;
+    padding: 0 135px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .page__header {
+    padding: 0 75px;
+  }
 }

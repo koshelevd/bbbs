@@ -1,0 +1,27 @@
+.article-card__author {
+  font-weight: 400;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: .2px;
+  margin: 7px 0 0;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .article-card__author {
+
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .article-card__author {
+
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .article-card__author {
+
+  }
+}

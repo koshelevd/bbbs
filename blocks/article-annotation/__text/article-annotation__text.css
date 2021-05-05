@@ -1,0 +1,23 @@
+.article-annotation__text {
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0 0 26px;
+}
+
+@media screen and (min-width: 1024px) {
+  .article-annotation__text {
+
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .article-annotation__text {
+
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .article-annotation__text {
+
+  }
+}

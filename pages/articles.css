@@ -7,5 +7,21 @@
 @import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/page/__content/page__content.css);
 
+@import url(../blocks/nav/nav.css);
+
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__header/content__header.css);
+
+@import url(../blocks/articles/articles.css);
+@import url(../blocks/articles/__preview/articles__preview.css);
+
+@import url(../blocks/article-card/article-card.css);
+@import url(../blocks/article-card/__header/article-card__header.css);
+@import url(../blocks/article-card/__author/article-card__author.css);
+@import url(../blocks/article-card/__body/article-card__body.css);
+@import url(../blocks/article-card/__image/article-card__image.css);
+@import url(../blocks/article-card/__link/article-card__link.css);
+@import url(../blocks/article-card/_theme/article-card_theme_yellow.css);
+
+@import url(../blocks/article-annotation/article-annotation.css);
+@import url(../blocks/article-annotation/__text/article-annotation__text.css);
