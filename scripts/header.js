@@ -58,6 +58,6 @@ headerAuthorizationMobile.addEventListener('click', () => { openPopup(popupAutho
 
 headerAuthorizationDesktop.addEventListener('click', () => { openPopup(popupAuthorization) });
 
-popupAuthorizationClose.addEventListener('click', () => { openPopup(popupAuthorization) });
+popupAuthorizationClose.addEventListener('click', () => { closePopup(popupAuthorization) });
 
 changeCity.addEventListener('click', () => { openPopup(popupChangeCity) });
