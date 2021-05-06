@@ -1,0 +1,41 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+}
+
+.articles__preview {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.articles__preview_main {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .articles {
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .articles__preview {
+    flex-basis: calc(50% - 15px);  
+  }
+
+  .articles__preview_main {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .articles__preview {
+    flex-basis: calc(33% - 10px);
+    margin-bottom: 80px;
+  }
+
+  .articles__preview_main {
+    flex-direction: row;
+    flex-basis: 100%;
+  }
+}
