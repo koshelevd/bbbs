@@ -25,6 +25,7 @@
 }
 
 .popup__close {
+  cursor: pointer;
   border: none;
   background: transparent;
   margin: 16px 12px 0 0;
@@ -134,6 +135,7 @@
 }
 
 .popup__submit {
+  cursor: pointer;
   margin: 30px 0 0;
   background: transparent;
   width: 66px;

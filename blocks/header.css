@@ -1,6 +1,12 @@
 .header {
+  display: block;
+}
+
+.header_screen_desktop {
   display: flex;
   justify-content: space-between;
+  margin: 40px 0 0;
+
 }
 
 .header__block {
@@ -27,7 +33,7 @@
   margin: 1px 10px 0 0;
   width: 30px;
   height: 30px;
-  background: center / contain url('../../images/header/loupe.svg') no-repeat transparent;
+  background: center / contain url('../images/header/loupe.svg') no-repeat transparent;
   border: none;
 }
 
@@ -37,7 +43,7 @@
   visibility: hidden;
   width: 30px;
   height: 30px;
-  background: center / contain url('../../images/header/authorization.svg') no-repeat transparent;
+  background: center / contain url('../images/header/authorization.svg') no-repeat transparent;
   border: none;
 }
 
@@ -57,7 +63,7 @@
 }
 
 .header__authorization_type_logged-in {
-  background: center / contain url('../../images/header/authorization-logged.svg') no-repeat transparent;
+  background: center / contain url('../images/header/authorization-logged.svg') no-repeat transparent;
 }
 
 .header__logo {
@@ -75,6 +81,7 @@
   .header__logo_screen_desktop {
     display: block;
     font-size: 26px;
+    margin: 0;
   }
 }
 
@@ -84,12 +91,12 @@
 
 .header__burger-btn {
   position: absolute;
-  top: 15px;
+  top: 7px;
   right: 0;
   cursor: pointer;
   width: 30px;
   height: 20px;
-  background: center / contain url('../../images/header/burger.svg') no-repeat transparent;
+  background: center / contain url('../images/header/burger.svg') no-repeat transparent;
   border: none;
 }
 
@@ -106,7 +113,7 @@
   width: 40px;
   height: 40px;
   padding: 0;
-  background: center / contain url('../../images/header/close.svg') no-repeat transparent;
+  background: center / contain url('../images/header/close.svg') no-repeat transparent;
   border: none;
 }
 
@@ -261,12 +268,9 @@
   }
 }
 
-.main {
-  position: relative;
-}
-
 .search {
   display: none;
+  box-sizing: border-box;
 }
 
 .search_screen_desktop {
@@ -274,11 +278,10 @@
 }
 
 .search_screen_mobile {
-  position: absolute;
-  top: 4px;
-  left: 0;
   height: 100%;
   z-index: 11;
+  margin: 10px 0 0;
+  padding: 0px 5px 0;
 }
 
 .search_visible_on {
