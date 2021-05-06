@@ -7,9 +7,21 @@
   text-align: center;
 }
 
+.content__header_type_h2 {
+  font-size: 19px;
+  line-height: 1.25;
+  margin-top: 17px;
+  margin-bottom: 18px;
+}
+
 @media screen and (min-width: 1024px) {
   .content__header {
     margin: 30px auto 50px;
+  }
+
+  .content__header_type_h2 {
+    margin-top: 36px;
+    margin-bottom: 29px;
   }
 }
 
@@ -18,5 +30,18 @@
     font-size: 74px;
     line-height: 1.08;
     margin: 80px auto;
+  }
+
+  .content__header_type_h2 {
+    font-size: 44px;
+    line-height: 1.14;
+    margin-top: 66px;
+    margin-bottom: 51px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content__header_type_h2 {
+    max-width: 63%;
   }
 }

@@ -1,0 +1,11 @@
+.bbbs-logo {
+  display: block;
+  width: 252px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1440px) {
+  .bbbs-logo {
+    width: 357px;
+  }
+}
