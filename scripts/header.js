@@ -11,6 +11,8 @@ const searchBlockLoupe = document.querySelector('.header__search-authorization')
 const menuDesktop = document.querySelector('.header__menu-desktop');
 const popupAuthorization = document.querySelector('.popup_type_authorization');
 const popupAuthorizationClose = popupAuthorization.querySelector('.popup__close');
+const popupChangeCity = document.querySelector('.popup_type_city');
+const changeCity = document.querySelector('.header__change-city');
 
 function openMenu() {
   headerMenu.classList.add('header__menu_visible_on');
@@ -36,12 +38,12 @@ function handleSearchBtnDesktop() {
   searchBlockLoupe.classList.toggle('header__search-authorization_container_opened');
 }
 
-function openPopup() {
-  popupAuthorization.classList.add('popup_visible_on');
+function openPopup(elem) {
+  elem.classList.add('popup_visible_on');
 }
 
-function closePopup() {
-  popupAuthorization.classList.remove('popup_visible_on');
+function closePopup(elem) {
+  elem.classList.remove('popup_visible_on');
 }
 
 headerBtnBurger.addEventListener('click', openMenu);
@@ -52,8 +54,10 @@ searchBtnMobile.addEventListener('click', handleSearchBtnMobile);
 
 searchBtnDesktop.addEventListener('click', handleSearchBtnDesktop);
 
-headerAuthorizationMobile.addEventListener('click', openPopup);
+headerAuthorizationMobile.addEventListener('click', () => { openPopup(popupAuthorization) });
 
-headerAuthorizationDesktop.addEventListener('click', openPopup);
+headerAuthorizationDesktop.addEventListener('click', () => { openPopup(popupAuthorization) });
 
-popupAuthorizationClose.addEventListener('click', closePopup);
+popupAuthorizationClose.addEventListener('click', () => { openPopup(popupAuthorization) });
+
+changeCity.addEventListener('click', () => { openPopup(popupChangeCity) });
