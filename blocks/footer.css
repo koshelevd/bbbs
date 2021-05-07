@@ -15,7 +15,6 @@
 
 .footer__pay-btn {
   cursor: pointer;
-  margin: 30px 0 0;
   padding: 11px 15px 12px;
   border: 1px solid #F3F2F2;
   border-radius: 100px;
@@ -26,26 +25,138 @@
   letter-spacing: 0.2px;
   color: #F3F2F2;
 }
-.footer__authors {
+
+.footer__pay-btn_screen_mobile {
   margin: 30px 0 0;
+}
+
+.footer__authors {
   font-size: 12px;
   line-height: 17px;
   letter-spacing: 0.2px;
   color: #F3F2F2;
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.footer__authors_screen_mobile {
+  margin: 30px 0 0;
+}
+
 .footer__copyright {
   color: #C8D1FF;
   text-align: center;
+  margin: 5px 15px 0;
 }
 .footer__author {
   text-align: center;
+  margin: 5px 15px 0;
 }
 .footer__design {
   text-align: center;
+  margin: 5px 15px 0;
 }
 .footer__authors-link {
   text-decoration: none;
   color: inherit;
   border-bottom: 0.3px solid #F3F2F2;
+}
+
+.footer__container {
+  display: none;
+}
+
+.footer__authors_screen_desktop {
+  max-width: 690px;
+  justify-content: start;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    flex-direction: row;
+    align-items: stretch;
+    padding: 91px 135px 80px;
+  }
+
+  .footer__logo-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__logo_screen_desktop {
+    margin: 0 85px 0 0;
+  }
+
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 110px 0 0;
+  }
+
+  .footer__logo_screen_mobile {
+    display: none;
+  }
+  
+  .footer__pay-btn_screen_mobile {
+    display: none;
+  }
+
+  .footer__authors_screen_mobile {
+    display: none;
+  }
+
+  .footer__copyright {
+    margin: 0 30px 0 0;
+  }
+  
+  .footer__author {
+    margin: 14px 0 0;
+  }
+
+  .footer__design {
+    margin: 12px 0 0 22px;
+  }
+
+  .menu_place_footer {
+    display: flex;
+    margin: 19px 0 0;
+  }
+
+  .menu__lists_place_footer {
+    border: none;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 50px 0 0;
+    padding: 0;
+  }
+  .menu__lists_place_footer:last-of-type {
+    margin: 0;
+  }
+
+  .menu__list_place_footer {
+    margin: 0 0 20px;
+  }
+
+  .menu__list_place_footer:last-of-type {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer__pay-btn_screen_desktop {
+    width: 169px;
+    height: 48px;
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .footer__logo_screen_desktop {
+    width: 415px;
+    height: 76px;
+  }
 }
