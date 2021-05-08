@@ -78,6 +78,7 @@
   .footer {
     flex-direction: row;
     align-items: stretch;
+    justify-content: center;
     padding: 91px 135px 80px;
   }
 
