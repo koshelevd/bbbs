@@ -20,6 +20,7 @@
   line-height: 1;
   letter-spacing: 0.2px;
   margin: 5px 0 0;
+  color: #464646;
 }
 
 .article-card__body {
@@ -27,6 +28,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin: 40px 0 0;
 }
 
 .article-card__caption {
@@ -81,6 +83,7 @@
   border-radius: 15px;
   padding: 2px 7px;
   display: none;
+  color: #464646;;
 }
 
 .article-card__tag_active {
@@ -127,6 +130,7 @@
   .article-card__author {
     font-size: 14px;
     margin-top: 10px;
+    color: #464646;
   }
 
   .article-card__caption {

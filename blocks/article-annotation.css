@@ -1,10 +1,21 @@
 .article-annotation {
+  margin: 0;
   width: 100%;
-  height: 188px;
+  height: 210px;
   background-color: #fff;
   border-radius: 30px;
   padding: 26px 7px 30px 15px;
   box-sizing: border-box;
+}
+
+.article-annotation__author {
+  margin: 0 0 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #464646;
 }
 
 .article-annotation__scroll-window {
@@ -44,7 +55,6 @@
   .article-annotation {
     padding-left: 30px;
     padding-right: 14px;
-
     min-height: 224px;
   }
 
@@ -55,6 +65,16 @@
     height: 100%;
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .article-annotation__author {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .articles__preview_main .artiticles-annotation_page_index {
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   .article-annotation__scroll-window {

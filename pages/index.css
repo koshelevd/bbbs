@@ -12,13 +12,20 @@
 
 @import url('../blocks/popup.css');
 
+@import url('../blocks/section.css');
+
 @import url('../blocks/logo.css');
 
 @import url('../blocks/content.css');
+
+@import url('../blocks/story.css');
+
 @import url('../blocks/articles.css');
 @import url('../blocks/article-card.css');
 @import url('../blocks/article-annotation.css');
 
-@import url('../blocks/story.css');
+@import url('../blocks/main-article.css');
+
+@import url('../blocks/trailer.css');
 
 @import url('../blocks/footer.css');
