@@ -2,24 +2,24 @@
   display: block;
 }
 
-.header_screen_desktop {
-  display: flex;
-  justify-content: space-between;
-  margin: 40px 0 0;
-
-}
-
 .header__block {
   position: relative;
   display: flex;
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  z-index: 2;
 }
 
 @media (min-width: 1280px) {
   .header__block{
     display: none;
+  }
+
+  .header_screen_desktop {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0;
   }
 }
 

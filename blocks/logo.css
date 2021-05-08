@@ -1,0 +1,30 @@
+.logo {
+  display: block;
+  width: 252px;
+  height: 46px;
+}
+
+.logo_place_footer {
+  background: center / contain url('../images/footer/logo-bbbs.svg') no-repeat;
+}
+
+.logo_place_main {
+  width: 164px;
+  height: 30px;
+  background: center / contain url('../images/index/logo-main.svg') no-repeat;
+}
+
+@media (min-width: 1280px) {
+  .logo_screen_mobile {
+    display: none;
+  }
+
+  .logo_place_footer {
+    margin: 0 85px 0 0;
+  }
+
+  .logo_screen_desktop {
+    width: 415px;
+    height: 76px;
+  }
+}

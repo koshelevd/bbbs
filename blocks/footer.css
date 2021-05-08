@@ -7,12 +7,6 @@
   background: #2E2468;
 }
 
-.footer__logo {
-  width: 252px;
-  height: 46px;
-  background: center / contain url('../images/footer/logo-bbbs.svg') no-repeat;
-}
-
 .footer__pay-btn {
   cursor: pointer;
   padding: 11px 15px 12px;
@@ -67,19 +61,19 @@
   display: none;
 }
 
-.footer__authors_screen_desktop {
-  max-width: 690px;
-  justify-content: start;
-  font-size: 18px;
-  line-height: 26px;
-}
-
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .footer {
     flex-direction: row;
     align-items: stretch;
     justify-content: center;
     padding: 91px 135px 80px;
+  }
+
+  .footer__authors_screen_desktop {
+    max-width: 690px;
+    justify-content: start;
+    font-size: 18px;
+    line-height: 26px;
   }
 
   .footer__logo-btn {
@@ -88,19 +82,11 @@
     align-items: center;
   }
 
-  .footer__logo_screen_desktop {
-    margin: 0 85px 0 0;
-  }
-
   .footer__container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0 110px 0 0;
-  }
-
-  .footer__logo_screen_mobile {
-    display: none;
   }
   
   .footer__pay-btn_screen_mobile {
@@ -122,18 +108,10 @@
   .footer__design {
     margin: 12px 0 0 22px;
   }
-}
 
-@media (min-width: 1280px) {
   .footer__pay-btn_screen_desktop {
     width: 169px;
-    height: 48px;
     font-size: 15px;
     line-height: 19px;
-  }
-
-  .footer__logo_screen_desktop {
-    width: 415px;
-    height: 76px;
   }
 }
