@@ -122,30 +122,6 @@
   .footer__design {
     margin: 12px 0 0 22px;
   }
-
-  .menu_place_footer {
-    display: flex;
-    margin: 19px 0 0;
-  }
-
-  .menu__lists_place_footer {
-    border: none;
-    flex-direction: column;
-    justify-content: start;
-    margin: 0 50px 0 0;
-    padding: 0;
-  }
-  .menu__lists_place_footer:last-of-type {
-    margin: 0;
-  }
-
-  .menu__list_place_footer {
-    margin: 0 0 20px;
-  }
-
-  .menu__list_place_footer:last-of-type {
-    margin: 0;
-  }
 }
 
 @media (min-width: 1280px) {
