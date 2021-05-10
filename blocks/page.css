@@ -31,11 +31,12 @@
 .page__header {
   min-height: 45px;
   padding: 0 10px 0;
+  margin: 8px 0 0;
   width: 100%;
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .page__content {
     padding: 0 127px;
   }
