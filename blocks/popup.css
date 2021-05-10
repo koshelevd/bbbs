@@ -22,6 +22,7 @@
 
 .popup_visible_on {
   visibility: visible;
+  z-index: 3;
 }
 
 .popup__close {
