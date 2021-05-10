@@ -4,21 +4,21 @@
   align-items: center;
   justify-content: space-between;
   min-height: 312px;
-  background: #C8D1FF;
+  background: #c8d1ff;
   border-radius: 30px;
   box-sizing: border-box;
   padding: 30px 15px 15px;
 }
 
 .main-article__container_theme_green {
-  background: #8CDD94;
+  background: #8cdd94;
 }
 
 .main-article__title {
   margin: 0;
   font-size: 19px;
   line-height: 23px;
-  color: #1A1A1A;
+  color: #1a1a1a;
   box-sizing: border-box;
   text-align: center;
 }
@@ -28,10 +28,10 @@
   font-size: 12px;
   line-height: 17px;
   letter-spacing: 0.2px;
-  color: #224CFF;
+  color: #224cff;
 }
 
-@media (min-width:1440px) {
+@media (min-width: 1440px) {
   .main-article__container {
     min-height: 490px;
     padding: 120px 0 30px;
@@ -48,3 +48,5 @@
     line-height: 19px;
   }
 }
+
+

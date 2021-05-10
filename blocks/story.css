@@ -107,4 +107,8 @@
   .story__title {
     padding: 122px 150px;
   }
+
+  .story {
+    padding-top: 65px;
+  }
 }
