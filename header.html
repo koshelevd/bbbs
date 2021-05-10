@@ -24,22 +24,25 @@
           <button class="header__close-btn" type="button" aria-label="кнопка закрытия меню"></button>
         </div>
       </div>
-      <nav class="header__menu-mobile">
-        <div class="header__menu-navigation">
-          <ul class="header__menu-lists">
-            <li class="header__menu-list"><a href="#" class="header__menu-link">о проекте</a></li>
-            <li class="header__menu-list"><a href="#" class="header__menu-link">календарь</a></li>
-            <li class="header__menu-list"><a href="#" class="header__menu-link">куда пойти</a></li>
-            <li class="header__menu-list"><a href="#" class="header__menu-link">вопросы</a></li>
-            <li class="header__menu-list"><a href="#" class="header__menu-link">читать и смотреть</a></li>
-            <li class="header__menu-list"><a href="#" class="header__menu-link">права детей</a></li>
-            <li class="header__menu-list"><a href="#" class="header__menu-link">истории</a></li>
+      <nav class="menu menu_screen_mobile">
+        <div class="menu__navigation">
+          <ul class="menu__lists">
+            <li class="menu__list"><a href="#" class="menu__link">о проекте</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">календарь</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">куда пойти</a>
+            </li>
+            <li class="menu__list"><a href="#" class="menu__link">вопросы</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">читать и
+                смотреть</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">права детей</a>
+            </li>
+            <li class="menu__list"><a href="#" class="menu__link">истории</a></li>
           </ul>
-          <ul class="header__menu-lists">
-            <li class="header__menu-list"><a href="#" class="header__menu-link">facebook</a></li>
-            <li class="header__menu-list"><a href="#" class="header__menu-link">vkontakte</a></li>
-            <li class="header__menu-list"><a href="#" class="header__menu-link">instagram</a></li>
-            <li class="header__menu-list"><a href="#" class="header__menu-link">youtube</a></li>
+          <ul class="menu__lists">
+            <li class="menu__list"><a href="#" class="menu__link">facebook</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">vkontakte</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">instagram</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">youtube</a></li>
           </ul>
         </div>
         <div class="header__menu-bottom">
@@ -54,43 +57,51 @@
       <div class="header header_screen_desktop">
         <a class="header__logo header__logo_type_logged-in header__logo_screen_desktop"
           href="./index.html">наставники.про</a>
-        <nav class="header__menu-desktop">
-          <ul class="header__menu-lists-desktop">
-            <li class="header__menu-list-desktop"><a href="#" class="header__menu-link">календарь</a></li>
-            <li class="header__menu-list-desktop"><a href="#" class="header__menu-link">куда пойти</a></li>
-            <li class="header__menu-list-desktop"><a href="#" class="header__menu-link">вопросы</a></li>
-            <li class="header__menu-list-desktop"><a href="#" class="header__menu-link">читать и смотреть</a></li>
-            <li class="header__menu-list-desktop"><a href="#" class="header__menu-link">права детей</a></li>
-            <li class="header__menu-list-desktop"><a href="#" class="header__menu-link">истории</a></li>
+        <nav class="menu menu_screen_desktop">
+          <ul class="menu__lists menu__lists_screen_desktop">
+            <li class="menu__list menu__list_screen_desktop"><a href="#" class="menu__link">календарь</a></li>
+            <li class="menu__list menu__list_screen_desktop"><a href="#" class="menu__link">куда
+                пойти</a></li>
+            <li class="menu__list menu__list_screen_desktop"><a href="#" class="menu__link">вопросы</a></li>
+            <li class="menu__list menu__list_screen_desktop"><a href="#" class="menu__link">читать и
+                смотреть</a>
+            </li>
+            <li class="menu__list menu__list_screen_desktop"><a href="#" class="menu__link">права
+                детей</a></li>
+            <li class="menu__list menu__list_screen_desktop"><a href="#" class="menu__link">истории</a></li>
           </ul>
         </nav>
         <div class="header__search-authorization">
-          <button class="header__loupe header__loupe_screen_desktop" type="button" aria-label="кнопка поиска"></button>
-          <div class="search search_screen_desktop">
-            <form action="#" class="search__form">
-              <input type="text" class="search__input" placeholder="Поиск">
-            </form>
-            <ul class="search__result search__result_screen_desktop">
-              <li class="search__result-item search__result-item_screen_desktop">
-                <h2 class="search__title search__title_screen_desktop">Причины подростковой агрессии</h2>
-                <a href="#" class="search__link search__link_screen_desktop">статьи</a>
-              </li>
-              <li class="search__result-item search__result-item_screen_desktop">
-                <h2 class="search__title search__title_screen_desktop">Агрессивное поведение детей-сирот</h2>
-                <a href="#" class="search__link search__link_screen_desktop">видео</a>
-              </li>
-              <li class="search__result-item search__result-item_screen_desktop">
-                <h2 class="search__title search__title_screen_desktop">Что делать если ваш младший агрессивно себя
-                  ведет,
-                  решил закрыть пару?</h2>
-                <a href="#" class="search__link search__link_screen_desktop">вопросы</a>
-              </li>
-              <li class="search__result-item search__result-item_screen_desktop">
-                <h2 class="search__title search__title_screen_desktop">Как реагировать на агрессивное поведения ребенка
-                </h2>
-                <a href="#" class="search__link search__link_screen_desktop">книги</a>
-              </li>
-            </ul>
+          <div class="header__search-block">
+            <button class="header__loupe header__loupe_screen_desktop" type="button"
+              aria-label="кнопка поиска"></button>
+            <div class="search search_screen_desktop">
+              <form action="#" class="search__form">
+                <input type="text" class="search__input" placeholder="Поиск">
+              </form>
+              <ul class="search__result search__result_screen_desktop">
+                <li class="search__result-item search__result-item_screen_desktop">
+                  <h2 class="search__title search__title_screen_desktop">Причины подростковой агрессии</h2>
+                  <a href="#" class="search__link search__link_screen_desktop">статьи</a>
+                </li>
+                <li class="search__result-item search__result-item_screen_desktop">
+                  <h2 class="search__title search__title_screen_desktop">Агрессивное поведение детей-сирот</h2>
+                  <a href="#" class="search__link search__link_screen_desktop">видео</a>
+                </li>
+                <li class="search__result-item search__result-item_screen_desktop">
+                  <h2 class="search__title search__title_screen_desktop">Что делать если ваш младший агрессивно себя
+                    ведет,
+                    решил закрыть пару?</h2>
+                  <a href="#" class="search__link search__link_screen_desktop">вопросы</a>
+                </li>
+                <li class="search__result-item search__result-item_screen_desktop">
+                  <h2 class="search__title search__title_screen_desktop">Как реагировать на агрессивное поведения
+                    ребенка
+                  </h2>
+                  <a href="#" class="search__link search__link_screen_desktop">книги</a>
+                </li>
+              </ul>
+            </div>
           </div>
           <button
             class="header__authorization header__authorization_type_logged-in header__authorization_screen_desktop"
