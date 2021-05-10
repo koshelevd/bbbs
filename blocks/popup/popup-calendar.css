@@ -1,0 +1,326 @@
+.popup {
+    position: fixed;
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s, opacity 0.3s linear;
+}
+.popup__overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.9;
+}
+.popup__content-calendar {
+    margin: auto;
+    min-width: 770px;
+    padding-bottom: 37px;
+    background-color: white;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+@media screen and (max-width: 1024px) {
+    .popup__content-calendar {
+        min-width: 290px;
+    }
+}
+.popup__calendar-item {
+    max-width: 770px;
+    background: #ffffff;
+    border-radius: 30px;
+}
+@media screen and (max-width: 1024px) {
+    .popup__calendar-item {
+        max-width: 290px;
+    }
+}
+.popup__calendar-content {
+    max-width: 570px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+    .popup__calendar-content {
+        max-width: 260px;
+    }
+}
+.popup__calendar__header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.popup__calendar-who {
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #464646;
+}
+@media screen and (max-width: 1024px) {
+    .popup__calendar-who {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+.popup__calendar-day {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+@media screen and (max-width: 1024px) {
+    .popup__calendar-day {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+.popup__calendar-info {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+    .popup__calendar-info {
+        padding-top: 5px;
+    }
+}
+.popup__calendar-event {
+    margin: 0;
+    max-width: 320px;
+    font-family: Proto Grotesk Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    color: #000000;
+}
+@media screen and (max-width: 1024px) {
+    .popup__calendar-event {
+        max-width: 166px;
+        font-size: 19px;
+        line-height: 23px;
+    }
+}
+.popup__calendar-number {
+    align-self: self-end;
+    margin: 0;
+    font-family: Proto Grotesk Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: -2px;
+    color: #000000;
+}
+@media screen and (max-width: 1024px) {
+    .popup__calendar-number {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+.popup__calendar-time {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 11px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #1a1a1a;
+}
+@media screen and (max-width: 1024px) {
+    .popup__calendar-time {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+.popup__calendar-place {
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #1a1a1a;
+    margin: 0;
+    border-style: solid;
+    border-width: 0.5px 0 0.5px 0;
+    border-color: #a7a6a6;
+    padding-bottom: 11px;
+    padding-top: 11px;
+}
+@media screen and (max-width: 1024px) {
+    .popup__calendar-place {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+.popup__calendar-contacts {
+    margin: 0;
+    padding-top: 11px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #1a1a1a;
+}
+@media screen and (max-width: 1024px) {
+    .popup__calendar-contacts {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+.popup__calendar-article {
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1a1a1a;
+}
+@media screen and (max-width: 1024px) {
+    .popup__calendar-article {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+.popup__calendar-singup {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #224cff;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.popup__calendar-text {
+    margin: 0;
+    font-family: Proto Grotesk Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #224cff;
+}
+@media screen and (max-width: 1024px) {
+    .popup__calendar-text {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+.popup__calendar-status {
+    align-self: center;
+    padding-left: 10px;
+    padding-right: 17px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+@media screen and (max-width: 1024px) {
+    .popup__calendar-status {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+.fff {
+    height: 670px;
+    position: relative;
+}
+.popup__confirm-event {
+    margin: 0;
+
+    font-family: Proto Grotesk Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.popup__confirm {
+    max-width: 570px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup__confirm-buttons {
+    padding-top: 43px;
+}
+.popup__button-cancel {
+    margin-left: 15px;
+    background-color: white;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 114px;
+    height: 48px;
+}
+.popup__button-confirm {
+    background-color: white;
+    border: 1px solid #224cff;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 191px;
+    height: 48px;
+}
+.confirm__text {
+    margin: 0;
+
+    font-family: Proto Grotesk Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.popup__img-success {
+    display: block;
+    width: 413px;
+    height: 169px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.popup__success-request {
+    padding-top: 20px;
+}
+.popup__button-success {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 215px;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+}
+.popup__calendar-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 0;
+    background: transparent;
+    border-width: 0;
+}

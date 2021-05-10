@@ -1,0 +1,302 @@
+@import url(./vendor/fonts/fonts.css);
+.calendar__item {
+    max-width: 570px;
+    background: #ffffff;
+    border-radius: 30px;
+}
+@media screen and (max-width: 1440px) {
+    .calendar__item {
+        max-width: 370px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .calendar__item {
+        max-width: 290px;
+    }
+}
+
+.calendar__header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.calendar__who {
+    margin: 0;
+    max-width: 119px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #464646;
+}
+@media screen and (max-width: 1440px) {
+    .calendar__who {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+
+.calendar__day {
+    margin: 0;
+    max-width: 154px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 1440px) {
+    .calendar__day {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+.calendar__info {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1440px) {
+    .calendar__info {
+        padding-top: 5px;
+    }
+}
+.calendar__event {
+    margin: 0;
+    max-width: 320px;
+    font-family: Proto Grotesk Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    color: #000000;
+}
+@media screen and (max-width: 1440px) {
+    .calendar__event {
+        max-width: 246px;
+        font-size: 19px;
+        line-height: 23px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .calendar__event {
+        max-width: 166px;
+    }
+}
+
+.calendar__number {
+    align-self: self-end;
+    margin: 0;
+    font-family: Proto Grotesk Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: -2px;
+    color: #000000;
+}
+@media screen and (max-width: 1440px) {
+    .calendar__number {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+.calendar__time {
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #1a1a1a;
+}
+@media screen and (max-width: 1440px) {
+    .calendar__time {
+        padding-top: 82px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .calendar__time {
+        padding-top: 50px;
+    }
+}
+.calendar__place {
+    margin: 0;
+    border-style: solid;
+    border-width: 0.5px 0 0.5px 0;
+    border-color: #a7a6a6;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #1a1a1a;
+}
+@media screen and (max-width: 1440px) {
+    .calendar__place {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+.calendar__contacts {
+    margin: 0;
+    padding-top: 10px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+@media screen and (max-width: 1440px) {
+    .calendar__contacts {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+.calendar__buttons {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.calendar__content {
+    max-width: 510px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1440px) {
+    .calendar__content {
+        max-width: 340px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .calendar__content {
+        max-width: 260px;
+    }
+}
+
+.calendar__singup {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #224cff;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.calendar__text {
+    margin: 0;
+    font-family: Proto Grotesk Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #224cff;
+}
+.calendar__status {
+    align-self: center;
+    padding-left: 10px;
+    padding-right: 17px;
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.calendar__else {
+    margin-left: auto;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #224cff;
+    border-radius: 50px;
+}
+
+.calendar__title {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Proto Grotesk Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 74px;
+    line-height: 80px;
+    color: #000000;
+}
+@media screen and (max-width: 1440px) {
+    .calendar__title {
+        font-size: 37px;
+        line-height: 39px;
+    }
+}
+
+.calendar__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 570px);
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1440px) {
+    .calendar__cards {
+        grid-template-columns: 370px 370px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .calendar__cards {
+        grid-template-columns: 290px;
+    }
+}
+
+.calendar__button {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 104px;
+    height: 48px;
+}
+.calendar__button-text{
+    font-family: Proto Grotesk Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.calendar__button:active {
+    background-color: black;
+    color: white;
+}
+.calendar__month-buttons {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+@media screen and (max-width: 1440px) {
+    .calendar__month-buttons {
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .calendar__month-buttons {
+        padding-bottom: 30px;
+    }
+}
+
